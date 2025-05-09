@@ -1,7 +1,7 @@
 {
   "name": "coding-quiz",
   "version": "1.0.0",
-  "description": "A test of GitHub Actions that will run test cases when a Pull Request is made to the develop branch and when the code is merged to main and automatically deploys to Render.",
+  "description": "",
   "scripts": {
     "start": "cd server && npm run start",
     "seed": "cd server && npm run seed",
@@ -26,14 +26,5 @@
   "dependencies": {
     "@vitejs/plugin-react": "^4.3.1",
     "vitest": "^2.0.3"
-  },
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MMullen4/CI_CD-Pipeline.git"
-  },
-  "bugs": {
-    "url": "https://github.com/MMullen4/CI_CD-Pipeline/issues"
-  },
-  "homepage": "https://github.com/MMullen4/CI_CD-Pipeline#readme"
+  }
 }
