@@ -36,7 +36,7 @@ jobs:
 
       # Start App & wait for it to become available
       - name: start server & wait
-        run: npm start & npx wait-on https://localhost:3001
+        run: npm start & npx wait-on https://localhost:3000
      
         # Run tests
       - name: Run Tests
