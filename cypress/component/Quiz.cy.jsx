@@ -25,7 +25,7 @@ describe('Quiz Component', () => {
   it('should answer questions and complete the quiz', () => {
     // @ts-ignore
     cy.mount(<Quiz />);
-    cy.get('button').contains('Start the Quiz').click();
+    cy.get('button').contains('Start Quiz').click();
 
     // Answer questions
     cy.get('button').contains('1').click();
