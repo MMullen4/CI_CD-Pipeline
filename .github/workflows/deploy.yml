@@ -28,7 +28,7 @@ jobs:
           # Deploy to Render using API
       - name: Deploy to Render
         run: |
-          curl -X POST ${{ secrets.RENDER_DEPLOY_HOOK_URL }} 
+          curl -X POST "${{ secrets.RENDER_DEPLOY_HOOK_URL }}" 
 
      # Alt - for more control over the deployment
       # - name: Deploy to Render via API
