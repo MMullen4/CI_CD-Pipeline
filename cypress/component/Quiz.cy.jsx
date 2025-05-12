@@ -22,7 +22,7 @@ describe('Quiz Component', () => {
 
   it('should answer questions and complete the quiz', () => {
     cy.mount(<Quiz />);
-    cy.get('button').contains('Start Quiz').click();
+    cy.get('button').contains('Start the Quiz').click();
 
     // Answer questions
     cy.get('button').contains('1').click();
