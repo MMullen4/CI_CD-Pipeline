@@ -34,9 +34,9 @@ jobs:
       - name: Run Build
         run: npm run build
 
-      # Start App
-      - name: Run server
-        run: npm start
+      # Start App & wait for it to become available
+      - name: start server & wait
+        run: npm start & npx wait-on https://localhost:3001
      
         # Run tests
       - name: Run Tests
