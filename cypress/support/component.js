@@ -21,6 +21,7 @@ import './commands'
 
 import { mount } from 'cypress/react18'
 
+// @ts-ignore
 Cypress.Commands.add('mount', mount)
 
 // Example use:
